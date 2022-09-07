@@ -1,0 +1,169 @@
+/*
+Theme Name: Tema do trabalho de Desenvolvimento Web
+Theme URI: http://www.startsuacarreira.com.br
+Author: Gustavo Rafael Nunes Durães
+Author URI: none
+Description: Tema e uso da paginá
+Version: 1.0
+-------------------------------------------------------------
+ESTRUTURA BASE
+-------------------------------------------------------------
+**** ESTILOS GERAIS
+**** DECLARAÇÃO DE VAIÁVEIS
+**** BODY
+**** HEADER
+**** MAIN
+**** FOOTER
+**** EXTRAS
+**** @MEDIA
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* ESTILOS GERAIS */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+
+/* DECLARAÇÃO DE VARIÁVEIS */
+:root {
+    --corBackgroundbody: #0096C7;
+    --corBackgroundMain: white;
+    --corBackgroundHeader: #03045E;
+    --corBackgroundFooter: #023E8A;
+    --corButtons1: #ee9b00;
+    --corButtons2: #03045e;
+    --corTextPrimaraia: #FFBE0B;
+    --corTextSecundaria: #ffff;
+    --corTextTerciaria: #000;
+    
+}
+ /* BODY */
+ /* NÃO MEXER  */
+body{
+    font-family:'Open Sans', sans-serif;
+    background-color: var(--corBackgroundbody);
+}
+
+/* HEADER */
+/* NÃO MEXER  */
+header{
+    background-color: var(--corBackgroundHeader);
+    padding: 30px 30px 30px 30px;
+    margin: 30px;
+    border-radius: 24px;
+}
+
+header .header-button{
+    background-color: var(--corButtons1);
+}
+
+header .header-button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+header .lado-esquerdo{
+    font-size: xx-large;
+    align-items: center;
+    color: var(--corTextPrimaraia);
+}
+
+header .lado-direito{
+    padding-right: px;
+    flex-basis: 60%;
+    text-align: right;
+}
+
+
+
+
+
+/* MAIN */
+main{
+    background-color: var(--corBackgroundMain);
+    padding: 30px 30px 30px 30px;
+    margin: 30px;
+    border-radius: 24px;
+}
+
+main .tag-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+main .tag-table td, .tag-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+main .tag-table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+main .tag-table tr:hover {background-color: #ddd;}
+
+main .tag-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+
+
+
+
+/* FOOTER */
+/* NÃO MEXER  */
+footer{
+    background-color: var(--corBackgroundFooter);
+    padding: 10px 30px 0px 30px;
+    margin: 30px;
+    border-radius: 24px;
+}
+
+footer .footer-button{
+    background-color: var(--corButtons2);
+}
+
+footer .footer-button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer nav .about-us li{
+    margin: 15px 28px;
+    text-align: center;
+    color: var(--corTextSecundaria);
+}
+
+footer nav .project-repository{
+    border-top: 1px solid rgba(255, 255, 255, 20%);
+    margin: 20px 0 50px;
+    padding: 30px 0 0;
+    text-align: center;
+}
+footer nav .project-repository li{
+    margin: 15px 28px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+footer nav .project-repository li a img{
+    width: 50px;
+}

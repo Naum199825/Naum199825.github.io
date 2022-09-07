@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Gustavo Rafael Nunes Durães">
+        <title>Guia HTML 5: Tag <th> </title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="tags_style.css">
+    </head>
+
+    <body>
+
+        <!-- NÃO MEXER -->
+        <header>
+            <div class = "lado-esquerdo">
+                <p><h1>Guia HTML 5</h1></p>
+            </div>
+            <div class = "lado-direito">
+                <a href="/index.html">
+                    <button class = "header-button">Home</button>
+                </a>
+                <a href="/referencia.html">
+                    <button class = "header-button">Referências</button>
+                </a>
+                <a href="/sobre.html">
+                    <button class = "header-button">Sobre</button>
+                </a>
+            </div>
+        </header>
+
+
+
+        <main>
+            <p><h1>Tag HTML <span><</span><span>th</span><span>></span></h1></p>
+            <div class="box">
+                <p><h2>Definição e Uso</h2></p>
+                    <p>A tag <span><</span><span>th</span><span>></span>
+                        define uma célula de cabeçalho de uma tabela HTML.
+                    </p>
+                    <p>
+                        Uma tabela HTML tem dois tipos de células:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                > Células de cabeçalho - que contém as informações do cabeçalho
+                                (criada com a tag <span><</span><span>th</span><span>></span>).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                > Células de dados - que contém os dados da tabela
+                                (criada com a tag <span><</span><span>td</span><span>></span>).
+                            </p>
+                        </li>
+                    </ul>
+                    <p>
+                        Os elemento em <span><</span><span>th</span><span>></span> são em 
+                        negrito e centralizados por padrão.
+                    </p>
+                    <p>
+                        Os elementos em <span><</span><span>td</span><span>></span> são 
+                        normais e alinhados à esqueda por padrão.
+                    </p>
+            </div>
+            <div class="example">
+                <p><h3>Exemplo</h3></p>
+                <p>Criando uma tabela simples com três linhas, duas colunas e quatro células de dados:</p>
+                <div class="codeblock">
+                        <p>
+                            <span class="symbol"><</span><span class="tag">table</span><span class="symbol">></span>
+
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">tr</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">th</span><span class="symbol">></span>
+                            Mês
+                            <span class="symbol"><</span><span class="tag">/th</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">th</span><span class="symbol">></span>
+                            Economias
+                            <span class="symbol"><</span><span class="tag">/th</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">/tr</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">tr</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">td</span><span class="symbol">></span>
+                            Janeiro
+                            <span class="symbol"><</span><span class="tag">/td</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">td</span><span class="symbol">></span>
+                            $100
+                            <span class="symbol"><</span><span class="tag">/td</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">/tr</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">tr</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">td</span><span class="symbol">></span>
+                            Fevereiro
+                            <span class="symbol"><</span><span class="tag">/td</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">td</span><span class="symbol">></span>
+                            $90
+                            <span class="symbol"><</span><span class="tag">/td</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="symbol"><</span><span class="tag">/tr</span><span class="symbol">></span>
+                        </p>
+                        <p>
+                            <span class="symbol"><</span><span class="tag">/table</span><span class="symbol">></span>
+                        </p>
+                </div>
+                <p>Saída: </p>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Mês</th>
+                            <th>Economias</th>
+                        </tr>
+                        <tr>
+                            <td>Janeiro</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>Fevereiro</td>
+                            <td>$90</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <p><h2>Atributos</h2></p>
+                <p>
+                    A tag <span><</span><span>var</span><span>></span> 
+                    suporta todos os <a href="https://www.w3schools.com/tags/ref_standardattributes.asp">atributos gerais do HTML.</a>
+                </p>
+                <p>
+                    A tag <span><</span><span>select</span><span>></span> 
+                    suporta todos os <a href="https://www.w3schools.com/tags/ref_eventattributes.asp">atributos de evento do HTML.</a>
+                </p>
+                <table class="attribute-table">
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Valor</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><u>abbr</u></td>
+                            <td><i>text</i></td>
+                            <td>Especifica uma versão abreviada do conteúdo da célula.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><u>colspan</u></td>
+                            <td><i>number</i></td>
+                            <td>Especifica o número de colunas que uma célula de cabeçalho deve abranger.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><u>headers</u></td>
+                            <td><i>header_id</i></td>
+                            <td>Especifica uma ou mais células de cabeçalho às quais uma célula está relacionada.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><u>rowspan</u></td>
+                            <td><i>number</i></td>
+                            <td>Especifica o número de linhas que uma célula de cabeçalho deve abranger.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><u>scope</u></td>
+                            <td>
+                                <p>col</p>
+                                <p>colgroup</p>
+                                <p>row</p>
+                                <p>rowgroup</p>
+                            </td>
+                            <td>Especifica se uma célula de cabeçalho é um cabeçalho para uma coluna, linha ou grupo de colunas ou linhas.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+
+
+
+
+        <!-- NÃO MEXER -->
+        <!-- EDITAR APENAS A HREF DOS BOTÕES-->
+            <div class="center">
+                <a href="/tags/details_tag.html">
+                    <button class="main-button">Anterior</button>
+                </a>
+                <a href="/tags/noscript_tag.html">
+                    <button class="main-button">Próximo</button>
+                </a>
+            </div>
+            
+        </main>
+        
+
+
+
+
+        <!-- NÃO MEXER -->
+        <footer>
+            <div>
+                <nav>
+                    <ul class = "about-us">
+                        <li>
+                            <a>
+                                <p><h3>Conheça nossa Equipe:</h3></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/sobre.html">
+                                <button class = "footer-button">Sobre Nós</button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav>
+                <ul class = "project-repository">
+                    <li>
+
+                        <a href="https://github.com/Naum199825/TrabalhoDevWeb">
+                            <img src="/assets/img/github-big-logo.svg" alt="Repositório">
+                        </a>
+                        <p>Acesse o Repositório do projeto</p>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
